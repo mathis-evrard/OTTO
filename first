@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapport Site Web </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html { 
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#111] text-[#f1f1f1] font-sans"> 
+
+    <!-- Accueil -->
+    <section id="accueil" class="min-h-screen flex flex-col items-center justify-center text-center px-4 bg-[#111]">
+      <h1 class="text-5xl md:text-6xl font-bold text-[#e63946] mb-4"> Rapport Sous forme de site web </h1>
+      <p class="text-lg mb-10">Explorez les sections ci-dessous</p>
+      <div class="space-y-4 md:space-y-0 md:space-x-6 flex flex-col md:flex-row">
+        <a href="#presentation" class="bg-[#e63946] px-6 py-3 rounded-xl font-semibold hover:bg-[#c71f34] transition-all">Présentation</a>
+        <a href="#epreuves" class="bg-[#e63946] px-6 py-3 rounded-xl font-semibold hover:bg-[#c71f34] transition-all">Épreuves</a>
+        <a href="#shéma et code " class="bg-[#e63946] px-6 py-3 rounded-xl font-semibold hover:bg-[#c71f34] transition-all">Shéma et code </a>
+        <a href="#equipe" class="bg-[#e63946] px-6 py-3 rounded-xl font-semibold hover:bg-[#c71f34] transition-all">Equipe</a>
+        <a href="#conclusion" class="bg-[#e63946] px-6 py-3 rounded-xl font-semibold hover:bg-[#c71f34] transition-all">Conclusion</a>
+      </div>
+    </section>
+
+    <!-- Présentation du robot -->
+    <section id="presentation" class="py-20 px-6 max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-[#e63946] mb-6 text-center">Présentation du Robot</h2>
+      <p class="text-lg leading-relaxed text-center">
+        Otto  est un robot multifonction conçu pour évoluer dans différents environnements.
+        Il est équipé de capteurs, d'un bras articulé et d'une base imprimée en 3D.
+      </p>
+      <img src="OTTO.jpeg" alt="OTTO"
+  class="w-72 md:w-96 rounded-xl border-4 border-[#e63946] animate-pulse shadow-xl">
+    </section>
+
+    <!-- Épreuves réalisées -->
+    <section id="epreuves" class="py-20 px-6 bg-[#1a1a1a]">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-4xl font-bold text-[#e63946] mb-6 text-center">Épreuves Réalisées</h2>
+        <ul class="list-disc pl-6 text-lg space-y-2">
+          <li>Évitement d’obstacles avec capteur à ultrasons</li>
+          <li>Suivi de ligne avec capteurs infrarouges</li>
+          <li>Transport d’objets à l’aide du bras motorisé</li>
+        </ul>
+      </div>
+    </section>
+  
+  <!-- Shéma et Code  -->
+  <section id="shéma et code" class="py-20 px-6 bg-[#1a1a1a]">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-[#e63946] mb-6 text-center">Schéma et code </h2>
+      <ul class="list-disc pl-6 text-lg space-y-2">
+        <li>  </li>
+        <li>  </li>
+        <li>  </li>
+      </ul>
+    </div>
+  </section> 
+
+
+    <!-- Equipe -->
+    <section id="equipe" class="py-20 px-6 bg-[#1a1a1a]">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-4xl font-bold text-[#e63946] mb-6 text-center">Equipe</h2>
+        <ul class="list-disc pl-6 text-lg space-y-2">
+          <li>Raphael </li>
+          <li>Mathis </li>
+          <li>Maxence </li>
+        </ul>
+      </div>
+    </section> 
+
+
+    <!-- Conclusion -->
+    <section id="conclusion" class="py-20 px-6 max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold text-[#e63946] mb-6 text-center">Conclusion</h2>
+      <p class="text-lg leading-relaxed text-center">
+        Ce projet a permis de mettre en pratique des compétences en conception 3D, électronique et programmation embarquée. 
+        PolyBot 3D a rempli ses objectifs avec efficacité et polyvalence.
+      </p>
+    </section>
+
+  </body>
+</html>
